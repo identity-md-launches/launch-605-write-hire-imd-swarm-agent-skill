@@ -1,0 +1,995 @@
+{
+  "endpoint": "https://api.imd.fun/requests/check",
+  "method": "POST",
+  "paymentCallsMade": false,
+  "records": [
+    {
+      "file": "job.continue.json",
+      "sha256": "66fd1c5cc2659c529a64e5444ca1ce78404f2ef6345f06a72dddfabd4fc4c544",
+      "checks": [
+        {
+          "checkedAt": "2026-10-02T18:28:13.589152+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "job.continue",
+            "kind": "report",
+            "plan": [
+              {
+                "title": "Research and write the report, with sources",
+                "short": "report",
+                "skill": "research-report",
+                "stage": 0
+              }
+            ],
+            "owner": "0x3877332f9e4e1f1b3fa12dba940aa73597acac2c",
+            "project": {
+              "summary": [
+                "1 earlier job: research-report.",
+                "Last: research-report, completed: \"People holding IMD/identity-md seats are often inexperienced with setting up tools for an ai to use. For the each of the skills `create video`, `create audio`, `create image` research what would be the two best options for someone to use w\u2026\"",
+                "Code: https://github.com/Identity-md/research/blob/main/jobs/6c579f0d-b6a4-4e18-bfa5-025fdeaf8a69/_identitymd/README.md",
+                "Nothing deployed on chain."
+              ],
+              "next": [
+                {
+                  "skill": "research-report",
+                  "why": "A report on the project: what it does, how it works, its risks."
+                },
+                {
+                  "skill": "build-website",
+                  "why": "A site that presents what the project made."
+                }
+              ]
+            },
+            "facts": [
+              {
+                "id": "report_question",
+                "label": "The question",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "report_period",
+                "label": "The period",
+                "state": "unknown",
+                "required": false,
+                "assumed": "Assumed: current as of today."
+              },
+              {
+                "id": "report_sources",
+                "label": "Sources",
+                "state": "unknown",
+                "required": false,
+                "assumed": "The researchers will choose and cite sources."
+              },
+              {
+                "id": "report_format",
+                "label": "Length and format",
+                "state": "unknown",
+                "required": false,
+                "assumed": "Assumed: a few pages of Markdown with sources."
+              }
+            ],
+            "judged": true,
+            "blockers": [],
+            "suggestions": []
+          }
+        },
+        {
+          "checkedAt": "2026-10-02T18:28:22.844574+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "job.continue",
+            "kind": "report",
+            "plan": [
+              {
+                "title": "Research and write the report, with sources",
+                "short": "report",
+                "skill": "research-report",
+                "stage": 0
+              }
+            ],
+            "owner": "0x3877332f9e4e1f1b3fa12dba940aa73597acac2c",
+            "project": {
+              "summary": [
+                "1 earlier job: research-report.",
+                "Last: research-report, completed: \"People holding IMD/identity-md seats are often inexperienced with setting up tools for an ai to use. For the each of the skills `create video`, `create audio`, `create image` research what would be the two best options for someone to use w\u2026\"",
+                "Code: https://github.com/Identity-md/research/blob/main/jobs/6c579f0d-b6a4-4e18-bfa5-025fdeaf8a69/_identitymd/README.md",
+                "Nothing deployed on chain."
+              ],
+              "next": [
+                {
+                  "skill": "research-report",
+                  "why": "A report on the project: what it does, how it works, its risks."
+                },
+                {
+                  "skill": "build-website",
+                  "why": "A site that presents what the project made."
+                }
+              ]
+            },
+            "facts": [
+              {
+                "id": "report_question",
+                "label": "The question",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "report_period",
+                "label": "The period",
+                "state": "unknown",
+                "required": false,
+                "assumed": "Assumed: current as of today."
+              },
+              {
+                "id": "report_sources",
+                "label": "Sources",
+                "state": "unknown",
+                "required": false,
+                "assumed": "The researchers will choose and cite sources."
+              },
+              {
+                "id": "report_format",
+                "label": "Length and format",
+                "state": "unknown",
+                "required": false,
+                "assumed": "Assumed: a few pages of Markdown with sources."
+              }
+            ],
+            "judged": true,
+            "blockers": [],
+            "suggestions": []
+          }
+        }
+      ]
+    },
+    {
+      "file": "job.open.json",
+      "sha256": "ec61fd523c6da8c5dc841a42d245db3bb229eb8ab14abff4fc48bbb6e0eaf20a",
+      "checks": [
+        {
+          "checkedAt": "2026-10-02T18:28:13.511361+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "job.open",
+            "kind": "report",
+            "plan": [
+              {
+                "title": "Research and write the report, with sources",
+                "short": "report",
+                "skill": "research-report",
+                "stage": 0
+              }
+            ],
+            "facts": [
+              {
+                "id": "report_question",
+                "label": "The question",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "report_period",
+                "label": "The period",
+                "state": "unknown",
+                "required": false,
+                "assumed": "Assumed: current as of today."
+              },
+              {
+                "id": "report_sources",
+                "label": "Sources",
+                "state": "unknown",
+                "required": false,
+                "assumed": "The researchers will choose and cite sources."
+              },
+              {
+                "id": "report_format",
+                "label": "Length and format",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: a few pages of Markdown with sources."
+              }
+            ],
+            "judged": true,
+            "blockers": [],
+            "suggestions": []
+          }
+        },
+        {
+          "checkedAt": "2026-10-02T18:28:22.742308+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "job.open",
+            "kind": "report",
+            "plan": [
+              {
+                "title": "Research and write the report, with sources",
+                "short": "report",
+                "skill": "research-report",
+                "stage": 0
+              }
+            ],
+            "facts": [
+              {
+                "id": "report_question",
+                "label": "The question",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "report_period",
+                "label": "The period",
+                "state": "unknown",
+                "required": false,
+                "assumed": "Assumed: current as of today."
+              },
+              {
+                "id": "report_sources",
+                "label": "Sources",
+                "state": "unknown",
+                "required": false,
+                "assumed": "The researchers will choose and cite sources."
+              },
+              {
+                "id": "report_format",
+                "label": "Length and format",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: a few pages of Markdown with sources."
+              }
+            ],
+            "judged": true,
+            "blockers": [],
+            "suggestions": []
+          }
+        }
+      ]
+    },
+    {
+      "file": "launch.open.json",
+      "sha256": "cae39d487de3b2a30a672686b593a8614dd1170a0feff965e704fb2a070f1589",
+      "checks": [
+        {
+          "checkedAt": "2026-10-02T18:28:13.512079+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "launch.open",
+            "kind": "contracts",
+            "plan": [
+              {
+                "title": "Build and test the contracts",
+                "short": "contracts",
+                "skill": "build-contract-project",
+                "stage": 0
+              },
+              {
+                "title": "Test them, as another agent",
+                "short": "tests",
+                "skill": "write-foundry-tests",
+                "stage": 1
+              },
+              {
+                "title": "Write what to deploy",
+                "short": "",
+                "stage": 1
+              },
+              {
+                "title": "Audit the math, as a specialist agent",
+                "short": "audit",
+                "skill": "audit-specialist",
+                "stage": 1
+              },
+              {
+                "title": "Audit the permissions, as a specialist agent",
+                "short": "audit",
+                "skill": "audit-specialist",
+                "stage": 1
+              },
+              {
+                "title": "Audit the economics, as a specialist agent",
+                "short": "audit",
+                "skill": "audit-specialist",
+                "stage": 1
+              },
+              {
+                "title": "Audit the control flow, as a specialist agent",
+                "short": "audit",
+                "skill": "audit-specialist",
+                "stage": 1
+              },
+              {
+                "title": "Judge the audit: reproduce, merge and rank what was found",
+                "short": "judge",
+                "skill": "audit-judge",
+                "stage": 2
+              },
+              {
+                "title": "Deploy on Sepolia",
+                "short": "deploy"
+              }
+            ],
+            "facts": [
+              {
+                "id": "what",
+                "label": "What each contract does",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "access",
+                "label": "Who can call what",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: an owner who can change settings, and anyone for everything else."
+              },
+              {
+                "id": "numbers",
+                "label": "The numbers that matter",
+                "state": "stated",
+                "required": false,
+                "assumed": "The builders will choose them and write them in the README."
+              },
+              {
+                "id": "upgrades",
+                "label": "Upgrades and pausing",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: not upgradeable and not pausable."
+              },
+              {
+                "id": "dependencies",
+                "label": "Outside contracts",
+                "state": "unknown",
+                "required": false,
+                "assumed": "Assumed: none beyond standard libraries."
+              },
+              {
+                "id": "token_name",
+                "label": "Token name",
+                "state": "stated",
+                "required": true
+              },
+              {
+                "id": "token_symbol",
+                "label": "Token symbol",
+                "state": "stated",
+                "required": true
+              },
+              {
+                "id": "token_supply",
+                "label": "Supply: 1,000,000,000 with 18 decimals, minted once",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_rules",
+                "label": "Transfers: plain, with no fees, limits, pausing or minting",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_split",
+                "label": "Split: 10% to the swarm, the other 90% is yours: 90% into the pool",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_pool",
+                "label": "Pool: paired with ETH, opening at a 20 ETH market cap",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_trading_fee",
+                "label": "Trading fee: 1.25% of every trade: 1% to you, 0.25% to IMD, claimable any time",
+                "state": "fixed",
+                "required": false
+              }
+            ],
+            "judged": true,
+            "blockers": [],
+            "suggestions": []
+          }
+        },
+        {
+          "checkedAt": "2026-10-02T18:28:22.708103+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "launch.open",
+            "kind": "contracts",
+            "plan": [
+              {
+                "title": "Build and test the contracts",
+                "short": "contracts",
+                "skill": "build-contract-project",
+                "stage": 0
+              },
+              {
+                "title": "Test them, as another agent",
+                "short": "tests",
+                "skill": "write-foundry-tests",
+                "stage": 1
+              },
+              {
+                "title": "Write what to deploy",
+                "short": "",
+                "stage": 1
+              },
+              {
+                "title": "Audit the math, as a specialist agent",
+                "short": "audit",
+                "skill": "audit-specialist",
+                "stage": 1
+              },
+              {
+                "title": "Audit the permissions, as a specialist agent",
+                "short": "audit",
+                "skill": "audit-specialist",
+                "stage": 1
+              },
+              {
+                "title": "Audit the economics, as a specialist agent",
+                "short": "audit",
+                "skill": "audit-specialist",
+                "stage": 1
+              },
+              {
+                "title": "Audit the control flow, as a specialist agent",
+                "short": "audit",
+                "skill": "audit-specialist",
+                "stage": 1
+              },
+              {
+                "title": "Judge the audit: reproduce, merge and rank what was found",
+                "short": "judge",
+                "skill": "audit-judge",
+                "stage": 2
+              },
+              {
+                "title": "Deploy on Sepolia",
+                "short": "deploy"
+              }
+            ],
+            "facts": [
+              {
+                "id": "what",
+                "label": "What each contract does",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "access",
+                "label": "Who can call what",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: an owner who can change settings, and anyone for everything else."
+              },
+              {
+                "id": "numbers",
+                "label": "The numbers that matter",
+                "state": "stated",
+                "required": false,
+                "assumed": "The builders will choose them and write them in the README."
+              },
+              {
+                "id": "upgrades",
+                "label": "Upgrades and pausing",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: not upgradeable and not pausable."
+              },
+              {
+                "id": "dependencies",
+                "label": "Outside contracts",
+                "state": "unknown",
+                "required": false,
+                "assumed": "Assumed: none beyond standard libraries."
+              },
+              {
+                "id": "token_name",
+                "label": "Token name",
+                "state": "stated",
+                "required": true
+              },
+              {
+                "id": "token_symbol",
+                "label": "Token symbol",
+                "state": "stated",
+                "required": true
+              },
+              {
+                "id": "token_supply",
+                "label": "Supply: 1,000,000,000 with 18 decimals, minted once",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_rules",
+                "label": "Transfers: plain, with no fees, limits, pausing or minting",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_split",
+                "label": "Split: 10% to the swarm, the other 90% is yours: 90% into the pool",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_pool",
+                "label": "Pool: paired with ETH, opening at a 20 ETH market cap",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_trading_fee",
+                "label": "Trading fee: 1.25% of every trade: 1% to you, 0.25% to IMD, claimable any time",
+                "state": "fixed",
+                "required": false
+              }
+            ],
+            "judged": true,
+            "blockers": [],
+            "suggestions": []
+          }
+        }
+      ]
+    },
+    {
+      "file": "oracle.request.json",
+      "sha256": "eac69b14bd3cd81c47ad2e99fbfee7919be3b944253867fc1a527850e8713651",
+      "checks": [
+        {
+          "checkedAt": "2026-10-02T18:28:14.286375+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "oracle.request",
+            "request": {
+              "v": 1,
+              "question": "Does the WETH9 contract at 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 on Ethereum mainnet return exactly 18 from decimals() at the closing block of the window?",
+              "chainId": 1,
+              "window": {
+                "hours": 24
+              },
+              "answerType": "bool",
+              "evidence": "chain",
+              "panelSize": 5,
+              "quorum": 4,
+              "validForSeconds": 86400
+            },
+            "proposed": {
+              "answerType": {
+                "value": "bool",
+                "confidence": 1
+              },
+              "evidence": {
+                "value": "chain",
+                "confidence": 0.99
+              },
+              "chainId": {
+                "value": 1,
+                "confidence": 1
+              },
+              "toleranceBps": {
+                "value": 0,
+                "confidence": 0.97
+              },
+              "head": {
+                "value": 1,
+                "confidence": 0.99
+              }
+            },
+            "judged": true,
+            "blockers": [],
+            "suggestions": [
+              {
+                "code": "wording",
+                "detail": "It may be read more than one way. Naming the period, the unit or the term you mean makes a split less likely."
+              }
+            ],
+            "online": 547,
+            "limits": {
+              "minPanelSize": 5,
+              "maxPanelSize": 100
+            },
+            "chains": [
+              {
+                "id": 1,
+                "name": "Ethereum mainnet"
+              },
+              {
+                "id": 56,
+                "name": "BNB Chain"
+              },
+              {
+                "id": 4663,
+                "name": "Robinhood Chain"
+              },
+              {
+                "id": 8453,
+                "name": "Base"
+              },
+              {
+                "id": 42161,
+                "name": "Arbitrum One"
+              }
+            ]
+          }
+        },
+        {
+          "checkedAt": "2026-10-02T18:28:23.553039+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "oracle.request",
+            "request": {
+              "v": 1,
+              "question": "Does the WETH9 contract at 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 on Ethereum mainnet return exactly 18 from decimals() at the closing block of the window?",
+              "chainId": 1,
+              "window": {
+                "hours": 24
+              },
+              "answerType": "bool",
+              "evidence": "chain",
+              "panelSize": 5,
+              "quorum": 4,
+              "validForSeconds": 86400
+            },
+            "proposed": {
+              "answerType": {
+                "value": "bool",
+                "confidence": 1
+              },
+              "evidence": {
+                "value": "chain",
+                "confidence": 0.99
+              },
+              "chainId": {
+                "value": 1,
+                "confidence": 1
+              },
+              "toleranceBps": {
+                "value": 0,
+                "confidence": 0.98
+              },
+              "head": {
+                "value": 1,
+                "confidence": 0.99
+              }
+            },
+            "judged": true,
+            "blockers": [],
+            "suggestions": [
+              {
+                "code": "wording",
+                "detail": "It may be read more than one way. Naming the period, the unit or the term you mean makes a split less likely."
+              }
+            ],
+            "online": 547,
+            "limits": {
+              "minPanelSize": 5,
+              "maxPanelSize": 100
+            },
+            "chains": [
+              {
+                "id": 1,
+                "name": "Ethereum mainnet"
+              },
+              {
+                "id": 56,
+                "name": "BNB Chain"
+              },
+              {
+                "id": 4663,
+                "name": "Robinhood Chain"
+              },
+              {
+                "id": 8453,
+                "name": "Base"
+              },
+              {
+                "id": 42161,
+                "name": "Arbitrum One"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "schedule.create.json",
+      "sha256": "d6fa75520c8ef826e4dfce6f8432c3d179d01ce7a7955f8a722921e70e9613f8",
+      "checks": [
+        {
+          "checkedAt": "2026-10-02T18:28:13.769726+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "schedule.create",
+            "blockers": [],
+            "suggestions": [],
+            "unitAmount": "500000000000000000",
+            "runs": 1,
+            "amount": "500000000000000000",
+            "terms": "Priced per run. Only a run that opens a question or a job spends one; skipped and failed runs cost nothing. Unused runs are not refunded."
+          }
+        },
+        {
+          "checkedAt": "2026-10-02T18:28:23.067034+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "schedule.create",
+            "blockers": [],
+            "suggestions": [],
+            "unitAmount": "500000000000000000",
+            "runs": 1,
+            "amount": "500000000000000000",
+            "terms": "Priced per run. Only a run that opens a question or a job spends one; skipped and failed runs cost nothing. Unused runs are not refunded."
+          }
+        }
+      ]
+    },
+    {
+      "file": "schedule.topup.json",
+      "sha256": "77fe7785eab39470c42ae1e546fbcb64f0eb192b0094edb0af2d7b9824c7c79b",
+      "checks": [
+        {
+          "checkedAt": "2026-10-02T18:28:13.729687+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "schedule.topup",
+            "blockers": [],
+            "suggestions": [],
+            "unitAmount": "500000000000000000",
+            "runs": 1,
+            "amount": "500000000000000000",
+            "terms": "Priced per run. Only a run that opens a question or a job spends one; skipped and failed runs cost nothing. Unused runs are not refunded."
+          }
+        },
+        {
+          "checkedAt": "2026-10-02T18:28:23.059795+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "schedule.topup",
+            "blockers": [],
+            "suggestions": [],
+            "unitAmount": "500000000000000000",
+            "runs": 1,
+            "amount": "500000000000000000",
+            "terms": "Priced per run. Only a run that opens a question or a job spends one; skipped and failed runs cost nothing. Unused runs are not refunded."
+          }
+        }
+      ]
+    },
+    {
+      "file": "workflow.open.json",
+      "sha256": "27c99de54a478ed2776f73bbe229e3d9367ff8af5d2fe90c59aad79efc9dd20c",
+      "checks": [
+        {
+          "checkedAt": "2026-10-02T18:28:14.337835+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "workflow.open",
+            "kind": "company",
+            "plan": [
+              {
+                "title": "Build and test the contracts",
+                "short": "contracts",
+                "skill": "build-contract-project"
+              },
+              {
+                "title": "Audit them, as another agent",
+                "short": "review",
+                "skill": "adversarial-review"
+              },
+              {
+                "title": "Deploy on Sepolia",
+                "short": "deploy"
+              },
+              {
+                "title": "Build the site against the live contracts",
+                "short": "site",
+                "skill": "frontend-for-contract"
+              },
+              {
+                "title": "Host the site on IPFS, source on GitHub",
+                "short": "hosting"
+              }
+            ],
+            "facts": [
+              {
+                "id": "what",
+                "label": "What each contract does",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "access",
+                "label": "Who can call what",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: an owner who can change settings, and anyone for everything else."
+              },
+              {
+                "id": "numbers",
+                "label": "The numbers that matter",
+                "state": "stated",
+                "required": false,
+                "assumed": "The builders will choose them and write them in the README."
+              },
+              {
+                "id": "token_name",
+                "label": "Token name",
+                "state": "stated",
+                "required": true
+              },
+              {
+                "id": "token_symbol",
+                "label": "Token symbol",
+                "state": "stated",
+                "required": true
+              },
+              {
+                "id": "site_pages",
+                "label": "What the site shows",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "site_wallet",
+                "label": "What a connected wallet can do",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: the site reads the contracts and offers their main actions."
+              },
+              {
+                "id": "token_supply",
+                "label": "Supply: 1,000,000,000 with 18 decimals, minted once",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_rules",
+                "label": "Transfers: plain, with no fees, limits, pausing or minting",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_split",
+                "label": "Split: 10% to the swarm, the other 90% is yours: 90% into the pool",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_pool",
+                "label": "Pool: paired with ETH, opening at a 20 ETH market cap",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_trading_fee",
+                "label": "Trading fee: 1.25% of every trade: 1% to you, 0.25% to IMD, claimable any time",
+                "state": "fixed",
+                "required": false
+              }
+            ],
+            "judged": true,
+            "blockers": [],
+            "suggestions": []
+          }
+        },
+        {
+          "checkedAt": "2026-10-02T18:28:23.718303+00:00",
+          "httpStatus": 200,
+          "body": {
+            "action": "workflow.open",
+            "kind": "company",
+            "plan": [
+              {
+                "title": "Build and test the contracts",
+                "short": "contracts",
+                "skill": "build-contract-project"
+              },
+              {
+                "title": "Audit them, as another agent",
+                "short": "review",
+                "skill": "adversarial-review"
+              },
+              {
+                "title": "Deploy on Sepolia",
+                "short": "deploy"
+              },
+              {
+                "title": "Build the site against the live contracts",
+                "short": "site",
+                "skill": "frontend-for-contract"
+              },
+              {
+                "title": "Host the site on IPFS, source on GitHub",
+                "short": "hosting"
+              }
+            ],
+            "facts": [
+              {
+                "id": "what",
+                "label": "What each contract does",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "access",
+                "label": "Who can call what",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: an owner who can change settings, and anyone for everything else."
+              },
+              {
+                "id": "numbers",
+                "label": "The numbers that matter",
+                "state": "stated",
+                "required": false,
+                "assumed": "The builders will choose them and write them in the README."
+              },
+              {
+                "id": "token_name",
+                "label": "Token name",
+                "state": "stated",
+                "required": true
+              },
+              {
+                "id": "token_symbol",
+                "label": "Token symbol",
+                "state": "stated",
+                "required": true
+              },
+              {
+                "id": "site_pages",
+                "label": "What the site shows",
+                "state": "stated",
+                "required": false
+              },
+              {
+                "id": "site_wallet",
+                "label": "What a connected wallet can do",
+                "state": "stated",
+                "required": false,
+                "assumed": "Assumed: the site reads the contracts and offers their main actions."
+              },
+              {
+                "id": "token_supply",
+                "label": "Supply: 1,000,000,000 with 18 decimals, minted once",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_rules",
+                "label": "Transfers: plain, with no fees, limits, pausing or minting",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_split",
+                "label": "Split: 10% to the swarm, the other 90% is yours: 90% into the pool",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_pool",
+                "label": "Pool: paired with ETH, opening at a 20 ETH market cap",
+                "state": "fixed",
+                "required": false
+              },
+              {
+                "id": "token_trading_fee",
+                "label": "Trading fee: 1.25% of every trade: 1% to you, 0.25% to IMD, claimable any time",
+                "state": "fixed",
+                "required": false
+              }
+            ],
+            "judged": true,
+            "blockers": [],
+            "suggestions": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "action": "job.open",
+  "input": {
+    "objective": "Compare unit, fuzz and invariant testing for Solidity. Give one concrete bug class each detects, its limitations, and at least three primary-source citations. Produce a concise Markdown report.",
+    "skill": "research-report",
+    "outputs": [
+      {
+        "name": "report",
+        "path": "artifacts/report.md",
+        "mediaType": "text/markdown"
+      }
+    ],
+    "minCitations": 3,
+    "github": false
+  }
+}

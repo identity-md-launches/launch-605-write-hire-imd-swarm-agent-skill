@@ -1,0 +1,38 @@
+{
+  "action": "workflow.open",
+  "input": {
+    "request": "Release Plain Demo (PLAIN), an ERC-20 with total supply 1,000,000,000 tokens, 18 decimals and plain transfers. Mint once to the deployer; no later minting, transfer taxes, rebasing, admin or upgrade. Use standard launch allocation: 10% to the swarm and 90% to the pool. Build and test, independently review, deploy on Sepolia, then host a read-only website displaying the verified contract address, total supply and connected wallet balance. Access control: anyone can transfer their own tokens and approve allowances; transferFrom requires sufficient allowance. There are no owner-only functions or privileged settings. Wallet connection is for balance reads only, with no write buttons, signatures or transactions.",
+    "context": "Sepolia chain 11155111 only. GitHub and IPFS publication approved for this example. The deployer executes deployment; users pay gas for token transfers for their own benefit. Website reads need no transaction. No background automation.",
+    "draft": {
+      "objective": "Build, test and independently review PLAIN with total supply 1,000,000,000 and 18 decimals. Deploy and publish a read-only token dashboard against verified addresses.",
+      "shape": "chain",
+      "onchain": "evm_project",
+      "chainId": 11155111,
+      "github": true,
+      "ipfs": true,
+      "steps": [
+        {
+          "skill": "build-contract-project"
+        },
+        {
+          "skill": "adversarial-review"
+        },
+        {
+          "skill": "frontend-for-contract",
+          "objective": "Show chain, deployed token address, supply and wallet balance; show loading and RPC error states."
+        }
+      ],
+      "economics": {
+        "poolBps": 9000
+      }
+    },
+    "permissions": {
+      "github": true,
+      "ipfs": true,
+      "onchain": {
+        "kind": "evm_project",
+        "chainId": 11155111
+      }
+    }
+  }
+}

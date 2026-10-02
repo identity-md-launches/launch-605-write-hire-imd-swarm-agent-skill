@@ -1,0 +1,17 @@
+{
+  "action": "job.continue",
+  "input": {
+    "parentJobId": "6c579f0d-b6a4-4e18-bfa5-025fdeaf8a69",
+    "objective": "Extend the existing media-tool setup report with a troubleshooting table for missing API credentials, unsupported media methods and failed tool probes. For each case state the observable symptom, a safe diagnostic and a fix, citing official documentation. Never print credentials.",
+    "skill": "research-report",
+    "outputs": [
+      {
+        "name": "report",
+        "path": "artifacts/report.md",
+        "mediaType": "text/markdown"
+      }
+    ],
+    "minCitations": 3,
+    "github": true
+  }
+}

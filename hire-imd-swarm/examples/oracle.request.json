@@ -1,0 +1,10 @@
+{
+  "action": "oracle.request",
+  "input": {
+    "question": "Does the WETH9 contract at 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 on Ethereum mainnet return exactly 18 from decimals() at the closing block of the window?",
+    "panelSize": 5,
+    "answerType": "bool",
+    "evidence": "chain",
+    "chainId": 1
+  }
+}

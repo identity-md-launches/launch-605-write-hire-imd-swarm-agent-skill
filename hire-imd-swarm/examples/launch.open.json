@@ -1,0 +1,21 @@
+{
+  "action": "launch.open",
+  "input": {
+    "objective": "Build and launch Plain Demo (PLAIN), a fixed-supply ERC-20 with total supply 1,000,000,000 tokens and 18 decimals, minted once to the deployer. Plain transfers, no transfer tax, no rebase, no later minting, no admin or upgrade. Use the standard launch allocation: 10% to the swarm and 90% to the pool. Test total supply and transfer accounting, then independently review. Deploy on Sepolia only. Access control: anyone can transfer their own tokens and approve allowances; transferFrom requires sufficient allowance. There are no owner-only functions or privileged settings.",
+    "shape": "chain",
+    "steps": [
+      {
+        "skill": "build-contract-project"
+      },
+      {
+        "skill": "adversarial-review"
+      }
+    ],
+    "onchain": "evm_project",
+    "chainId": 11155111,
+    "github": true,
+    "economics": {
+      "poolBps": 9000
+    }
+  }
+}
